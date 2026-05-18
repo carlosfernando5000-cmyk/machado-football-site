@@ -5,10 +5,25 @@ import "./style.css";
 
 function App() {
   const produtos = [
-    { nome: "Camisas de Torcedor", preco: "R$ 129,90", descricao: "Modelos atuais de clubes nacionais e internacionais sob encomenda." },
-    { nome: "Camisas de Seleção", preco: "R$ 149,90", descricao: "Camisas de seleções para jogos, coleção e uso casual." },
-    { nome: "Camisas Retrô", preco: "A partir de R$ 300,00", descricao: "Peças clássicas, vintage e especiais para colecionadores." },
-  ];
+   {
+  nome: "Camisa Corinthians Invasão Preta 2026",
+  preco: "R$ 129,90",
+  descricao: "Modelo torcedor disponível sob encomenda.",
+  imagem: "/corinthians-preta.jpeg",
+},
+
+{
+  nome: "Camisa Corinthians Invasão Branca 2026",
+  preco: "R$ 149,90",
+  descricao: "Camisa premium do Corinthians edição invasão.",
+  imagem: "/corinthians-branca.jpeg",
+},
+
+{
+  nome: "Camisa Flamengo Retrô",
+  preco: "R$ 300,00",
+  descricao: "Modelo retrô especial para colecionadores.",
+},
 
   return (
     <main>
