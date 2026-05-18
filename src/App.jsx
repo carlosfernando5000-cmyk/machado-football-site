@@ -72,7 +72,13 @@ const produtos = [
         <div className="grid">
           {produtos.map((produto) => (
             <div className="product" key={produto.nome}>
-              <div className="productImage"><ShoppingBag size={54} /></div>
+          <div className="productImage">
+  {produto.imagem ? (
+    <img src={produto.imagem} alt={produto.nome} />
+  ) : (
+    <ShoppingBag size={54} />
+  )}
+</div>
               <h3>{produto.nome}</h3>
               <strong>{produto.preco}</strong>
               <p>{produto.descricao}</p>
