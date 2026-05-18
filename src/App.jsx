@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { ShoppingBag, Instagram, MessageCircle, Star, ShieldCheck, Truck } from "lucide-react";
+import { ShoppingBag, MessageCircle, Star, ShieldCheck, Truck } from "lucide-react";
 import "./style.css";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           <p>Camisas de time • Retrô • Seleções</p>
         </div>
         <a className="btn gold" href="https://instagram.com/machado_football" target="_blank">
-          <Instagram size={18} /> Instagram
+          <ShoppingBag size={18} />
         </a>
       </header>
 
