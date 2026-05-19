@@ -10,14 +10,14 @@ const produtos = [
     nome: "Camisa Corinthians Invasão 2026",
     preco: "R$ 129,90",
     descricao: "Modelo torcedor disponível sob encomenda.",
-    imagem: "/Imagem do WhatsApp 2026-05-18 em 15.40.41 (1).jpeg",
+    imagem: "/corinthians-preta.jpeg",
   },
 
   {
-    nome: "Camisa Brasil Azul 2026",
-    preco: "R$ 149,90",
-    descricao: "Camisa premium da seleção brasileira.",
-    imagem: "/Imagem do WhatsApp 2026-05-18 às 15.40.41.jpeg",
+   nome: "Camisa Corinthians Invasão Branca 2026",
+    preco: "R$ 129,90",
+    descricao: "Camisa premium do Corinthians edição invasão.",
+  imagem: "/corinthians-branca.jpeg",
   },
   {
     nome: "Camisa Flamengo Retrô",
