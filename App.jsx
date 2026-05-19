@@ -16,7 +16,7 @@ function App() {
   nome: "Camisa Corinthians Invasão Branca 2026",
   preco: "R$ 149,90",
   descricao: "Camisa premium do Corinthians edição invasão.",
-  imagem: "/corinthians-branca.jpeg",
+   imagem: "/corinthians-branca.jpeg",
 },
 
 {
